@@ -1,5 +1,6 @@
 #!usr/bin/python
 from influxdb import InfluxDBClient
+from datetime import datetime
 
 
 client = InfluxDBClient(host='localhost', port=8086)
@@ -12,7 +13,7 @@ json_body = [
             "user": "Platon",
             "SensorId": "6c89f539-71c6-490d-a28d-6c5d84c0ee2f"
         },
-        "time": "2018-03-28T8:01:00Z",
+        "time": datetime.now(),
         "fields": {
             "TurnOnTime": 127
         }
@@ -23,7 +24,7 @@ json_body = [
             "user": "Nikita",
             "SensorId": "6c89f539-71c6-490d-a28d-6c5d84c0ee2f"
         },
-        "time": "2018-03-29T8:04:00Z",
+        "time": datetime.now(),
         "fields": {
             "TurnOnTime": 132
         }
@@ -34,7 +35,7 @@ json_body = [
             "user": "Kirill",
             "SensorId": "6c89f539-71c6-490d-a28d-6c5d84c0ee2f"
         },
-        "time": "2018-03-30T8:02:00Z",
+        "time": datetime.now(),
         "fields": {
             "TurnOnTime": 129
         }
