@@ -11,7 +11,7 @@ json_body = [
         "measurement": "BinarySensor",
         "tags": {
             "user": "Platon",
-            "SensorId": "6c89f539-71c6-490d-a28d-6c5d84c0ee2f"
+            "SensorId": "A1"
         },
         "time": datetime.now(),
         "fields": {
@@ -22,7 +22,7 @@ json_body = [
         "measurement": "BinarySensor",
         "tags": {
             "user": "Nikita",
-            "SensorId": "6c89f539-71c6-490d-a28d-6c5d84c0ee2f"
+            "SensorId": "A2"
         },
         "time": datetime.now(),
         "fields": {
@@ -33,7 +33,7 @@ json_body = [
         "measurement": "BinarySensor",
         "tags": {
             "user": "Kirill",
-            "SensorId": "6c89f539-71c6-490d-a28d-6c5d84c0ee2f"
+            "SensorId": "A3"
         },
         "time": datetime.now(),
         "fields": {
